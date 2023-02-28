@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common css style part starts */
+body {
+  font-family: "EB Garamond", serif;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #414040;
+  --secondary-color: #707070;
+}
+.primary_text {
+  color: var(--primary-color);
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
+  font-weight: 800;
+  line-height: 52.2px;
+  text-align: center;
+  margin: 22px 0;
+}
+.secondary_text {
+  color: var(--secondary-color);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.button_color {
+  background-color: #b68c5a;
+  border-radius: 10px;
+}
+/* common css style part ends */
+
+/* banner style part starts */
+#banner .banner_cnt h1 {
+  font-size: 62px;
+}
+#banner .banner_cnt input[type="search"] {
+  background-color: white;
+  width: 450px;
+  padding: 18px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  color: #a0a0a0;
+}
+/* banner style part ends */
+
+/* testimonial style part starts */
+#testimonial .slider_img {
+  height: 500px;
+}
+#testimonial .carousel-inner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+#testimonial .carousel_cnt {
+  z-index: 99;
+  top: 70px;
+}
+/* testimonial style part ends */
+
+/* FAQ style part starts */
+#frequently .accordion-button,
+#frequently .accordion-body {
+  background-color: #f3f3f3;
+  color: #414040;
+}
+/* FAQ style part ends */
+
+/* footer style part starts */
+footer {
+  padding: 100px 0;
+}
+footer h5 {
+  font-family: "EB Garamond", serif;
+}
+footer .f_card ul li a,
+footer .f_card p {
+  color: #cfcfcf;
+}
+footer .f_card input[type="email"] {
+  background-color: white;
+  width: 200px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+footer .f_card button {
+  background-color: #b68c5a;
+  padding: 13px 18px;
+  outline: none;
+}
+/* footer style part ends */
